@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Mathreal';
+    src: url('/assets/fonts/Mathreal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --color-tn-bg: #F2EEE3;
+    --color-tn-green: #3D5A3C;
+    --color-tn-yellow: #F5B821;
+    --color-tn-yellow-hover: #e5a90f;
+    --color-tn-orange: #E8834A;
+    --color-tn-red: #F4674F;
+    --color-tn-red-hover: #e0503a;
+    --color-tn-dark: #131313;
+
+    --font-sans: 'Poppins', sans-serif;
+    --font-heading: 'Mathreal', serif;
+}
+
+body {
+    background-color: var(--color-tn-bg);
+    color: var(--color-tn-dark);
+}
+
+::placeholder {
+    color: var(--color-tn-dark);
+    opacity: 0.4;
+}
